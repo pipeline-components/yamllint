@@ -3,6 +3,7 @@ COPY app /app/
 WORKDIR /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
+WORKDIR /code/
 # Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF
