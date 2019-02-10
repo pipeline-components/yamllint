@@ -34,8 +34,7 @@ This project uses [Semantic Versioning][semver] for its version numbering.
 
 Got questions?
 
-You have several options to get them answered:
-todo: addcommunication channel here
+Check the [discord channel][discord]
 
 You could also [open an issue here][issue]
 
@@ -87,6 +86,7 @@ SOFTWARE.
 [dockerhub]: https://hub.docker.com/r/pipelinecomponents/yamllint
 [license-shield]: https://img.shields.io/badge/License-MIT-green.svg
 [mjrider]: https://gitlab.com/mjrider
+[discord]: https://discord.gg/vhxWFfP
 [gitlabci-shield]: https://img.shields.io/gitlab/pipeline/pipeline-components/yamllint.svg
 [gitlabci]: https://gitlab.com/pipeline-components/yamllint/commits/master
 [issue]: https://gitlab.com/pipeline-components/yamllint/issues
