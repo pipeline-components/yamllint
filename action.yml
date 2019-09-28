@@ -1,0 +1,23 @@
+---
+name: 'yamllint'
+description: 'yamllint by Pipeline Components'
+author: 'Robbert Müller <spam.me@grols.ch>'
+branding:
+  icon: 'flag'
+  color: 'green'
+inputs:
+  directory:
+    description: 'Directory to lint'
+    required: false
+    default: .
+  options:
+    description: 'Additional options'
+    required: false
+    default: ''
+runs:
+  using: 'docker'
+  image: docker://pipelinecomponents/yamllint
+  args:
+    - yamllint
+    - '${{ inputs.options }}'
+    - '${{ inputs.directory }}'
