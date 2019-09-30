@@ -19,5 +19,5 @@ runs:
   image: docker://pipelinecomponents/yamllint
   args:
     - yamllint
-    - '${{ inputs.options }}'
-    - '${{ inputs.directory }}'
+    - ${{ inputs.options }}
+    - ${{ inputs.directory }}
