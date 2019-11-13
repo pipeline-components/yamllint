@@ -13,7 +13,7 @@ inputs:
   options:
     description: 'Additional options'
     required: false
-    default: ''
+    default: '--format auto'
 runs:
   using: 'docker'
   image: docker://pipelinecomponents/yamllint
