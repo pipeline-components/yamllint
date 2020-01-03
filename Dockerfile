@@ -1,6 +1,6 @@
 FROM pipelinecomponents/base-entrypoint:0.2.0 as entrypoint
 
-FROM python:3.7.6-alpine3.10
+FROM python:3.8.1-alpine3.10
 COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 ENV DEFAULTCMD yamllint
