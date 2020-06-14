@@ -1,5 +1,5 @@
 ---
-name: 'yamllint'
+name: 'pipeline-components-yamllint'
 description: 'yamllint by Pipeline Components'
 author: 'Robbert Müller <spam.me@grols.ch>'
 branding:
