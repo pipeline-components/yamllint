@@ -1,4 +1,4 @@
-FROM pipelinecomponents/base-entrypoint:0.2.0 as entrypoint
+FROM pipelinecomponents/base-entrypoint:0.3.0 as entrypoint
 
 FROM python:3.9.1-alpine3.12
 COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
