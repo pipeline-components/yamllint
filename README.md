@@ -21,7 +21,7 @@ The image is for running yamllint, yamllint is installed in /app/ in case you ne
 ```yaml
 yamllint:
   stage: linting
-  image: pipelinecomponents/yamllint:latest
+  image: registry.gitlab.com/pipeline-components/yamllint:latest
   script:
     - yamllint .
 ```
